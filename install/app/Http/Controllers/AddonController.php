@@ -10,9 +10,12 @@ use ZipArchive;
 use Storage;
 use Cache;
 use DB;
-
+  
 class AddonController extends Controller
 {
+    public function demo(){
+        
+    }
     public function __construct()
     {
         // Staff Permission Check
